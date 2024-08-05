@@ -2,15 +2,21 @@
 * {
     font-family: "Spectral", serif;
 }
+
+.example::-webkit-scrollbar {
+    display: none;
+  }
+
 body {
     background-color: black;
     color: white;
     font-family: spec;
+    overflow: hidden;
 }
 
 .vl {
     border-left: 1px solid goldenrod;
-    height: 600px;
+    height: 700px;
 }
 
 hr {
